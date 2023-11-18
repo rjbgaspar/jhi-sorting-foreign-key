@@ -1,0 +1,24 @@
+{
+  "bootifulmusicApp": {
+    "genre": {
+      "home": {
+        "title": "Genres",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Genre",
+        "createOrEditLabel": "Criar ou editar Genre",
+        "notFound": "Nenhum Genres encontrado"
+      },
+      "created": "Um novo Genre foi criado com o identificador {{ param }}",
+      "updated": "Genre com identificador {{ param }} foi actualizado",
+      "deleted": "Genre com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Genre {{ id }}?"
+      },
+      "detail": {
+        "title": "Genre"
+      },
+      "id": "ID",
+      "name": "Name"
+    }
+  }
+}

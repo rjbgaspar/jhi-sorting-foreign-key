@@ -1,0 +1,24 @@
+{
+  "bootifulmusicApp": {
+    "artist": {
+      "home": {
+        "title": "Artists",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Artist",
+        "createOrEditLabel": "Criar ou editar Artist",
+        "notFound": "Nenhum Artists encontrado"
+      },
+      "created": "Um novo Artist foi criado com o identificador {{ param }}",
+      "updated": "Artist com identificador {{ param }} foi actualizado",
+      "deleted": "Artist com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Artist {{ id }}?"
+      },
+      "detail": {
+        "title": "Artist"
+      },
+      "id": "ID",
+      "name": "Name"
+    }
+  }
+}

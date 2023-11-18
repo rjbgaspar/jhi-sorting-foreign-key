@@ -1,0 +1,43 @@
+{
+  "applications": ["bootifulmusic"],
+  "changelogDate": "20231118155142",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "album",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Album",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "artist",
+      "ownerSide": true,
+      "relationshipName": "artist",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "genre",
+      "ownerSide": true,
+      "relationshipName": "genre",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityField": "name",
+      "otherEntityName": "track",
+      "otherEntityRelationshipName": "album",
+      "relationshipName": "track",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

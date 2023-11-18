@@ -1,0 +1,43 @@
+application {
+  config {
+    baseName bootifulmusic,
+    reactive true
+    applicationType monolith
+    authenticationType jwt
+    buildTool maven
+    packageName com.jhipster.demo.bootifulmusic,
+    clientFramework vue
+    prodDatabaseType mssql,
+    enableTranslation true
+    nativeLanguage pt-pt
+    languages [en, pt-pt]
+  }
+  entities *
+}
+
+entity Artist {
+	name String required
+}
+
+entity Genre {
+	name String required
+}
+
+entity Track {
+	name String required
+}
+
+entity Album {
+	name String required
+}
+
+relationship OneToOne {
+	Album{artist(name)} to Artist
+    	Album{genre(name)} to Genre
+}
+
+relationship OneToMany {
+	Album{track(name)} to Track{album(name)}
+}
+
+paginate Artist, Genre, Track, Album with pagination

@@ -1,0 +1,25 @@
+{
+  "bootifulmusicApp": {
+    "track": {
+      "home": {
+        "title": "Tracks",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Track",
+        "createOrEditLabel": "Criar ou editar Track",
+        "notFound": "Nenhum Tracks encontrado"
+      },
+      "created": "Um novo Track foi criado com o identificador {{ param }}",
+      "updated": "Track com identificador {{ param }} foi actualizado",
+      "deleted": "Track com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Track {{ id }}?"
+      },
+      "detail": {
+        "title": "Track"
+      },
+      "id": "ID",
+      "name": "Name",
+      "album": "Album"
+    }
+  }
+}
